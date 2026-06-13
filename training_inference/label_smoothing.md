@@ -1,0 +1,1 @@
+The label smoothing interface is missing from the loss calculation module of the original Transformers library. To incorporate label smoothing, please either replace the loss_utils.py file in the current directory with transformers/loss/loss_utils.py, or modify the corresponding section (fixed_cross_entropy()) in transformers/loss/loss_utils.py directly.

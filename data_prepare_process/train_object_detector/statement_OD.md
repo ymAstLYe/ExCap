@@ -1,0 +1,1 @@
+Under the ZIC setting, even for the use case of object detection in the EEJ module that is not directly related to image captioning, we avoid accessing real-world images from the MSCOCO or Flickr30k datasets. Instead, we use the filtered Visual Genome (VG) dataset to train a Faster R-CNN model.
